@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/System_Top/ip/System_Top_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_a752_psr_aclk_0.vhd" \
+"../../../bd/System_Top/ip/System_Top_axi_bram_ctrl_0_0/sim/System_Top_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/System_Top/ip/System_Top_proc_sys_reset_0_0/sim/System_Top_proc_sys_reset_0_0.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,193 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Mar 12 21:51:20 2026
+# Process ID         : 43573
+# Current directory  : /home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1
+# Command line       : vivado -log System_Top_Top_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_Top_Top_0_0.tcl
+# Log file           : /home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/System_Top_Top_0_0.vds
+# Journal file       : /home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/vivado.jou
+# Running On         : gary-IdeaPad-Slim-5-Light-14ABR8
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 7 7730U with Radeon Graphics
+# CPU Frequency      : 3846.755 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14479 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 18774 MB
+# Available Virtual  : 12314 MB
+#-----------------------------------------------------------
+source System_Top_Top_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gary/Individual_Project/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/2025.2/data/ip'.
+Command: synth_design -top System_Top_Top_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 43614
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2238.379 ; gain = 480.875 ; free physical = 925 ; free virtual = 10565
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'System_Top_Top_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Array_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Array_main.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'PE_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Register_File.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Register_File.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'ALU_bitserial' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/ALU_bitserial.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_bitserial' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/ALU_bitserial.sv:6]
+INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:106]
+INFO: [Synth 8-6155] done synthesizing module 'PE_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Array_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Array_main.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_unit.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'Control_FSM' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:3]
+INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'Control_FSM' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'Control_Decode' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:3]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:70]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Decode' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_unit.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Top.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_Top_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
+INFO: [Synth 8-7129] Port i_instruction[19] in module Control_Decode is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[18] in module Control_Decode is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[1] in module Control_Decode is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[0] in module Control_Decode is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[19] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[18] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[17] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[16] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[15] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[14] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[13] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[12] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[11] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[10] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[9] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[8] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[7] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[6] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[5] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[4] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[3] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[2] in module Control_FSM is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_rstn in module Register_File is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2357.316 ; gain = 599.812 ; free physical = 775 ; free virtual = 10418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2360.285 ; gain = 602.781 ; free physical = 775 ; free virtual = 10418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2360.285 ; gain = 602.781 ; free physical = 775 ; free virtual = 10418
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2360.285 ; gain = 0.000 ; free physical = 770 ; free virtual = 10415
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc] for cell 'inst'
+Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc] for cell 'inst'
+Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2468.750 ; gain = 0.000 ; free physical = 767 ; free virtual = 10410
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2468.785 ; gain = 0.000 ; free physical = 771 ; free virtual = 10413
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2468.785 ; gain = 711.281 ; free physical = 794 ; free virtual = 10437
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2476.754 ; gain = 719.250 ; free physical = 794 ; free virtual = 10437
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2476.754 ; gain = 719.250 ; free physical = 794 ; free virtual = 10437
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'o_state_reg' in module 'Control_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                         00000001 |                             0001
+                 iSTATE0 |                         10000000 |                             1000
+                  iSTATE |                         00000010 |                             0111
+                 iSTATE1 |                         00000100 |                             0010
+                 iSTATE2 |                         01000000 |                             0011
+                 iSTATE6 |                         00010000 |                             0101
+                 iSTATE5 |                         00001000 |                             0110
+                 iSTATE4 |                         00100000 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'o_state_reg' using encoding 'one-hot' in module 'Control_FSM'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2476.754 ; gain = 719.250 ; free physical = 792 ; free virtual = 10438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 257   
++---XORs : 
+	   2 Input      1 Bit         XORs := 768   
++---Registers : 
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 256   
++---RAMs : 
+	              128 Bit	(8 X 16 bit)          RAMs := 256   
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 5     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 257   
+	   4 Input    4 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2049  
+	   8 Input    1 Bit        Muxes := 266   
+	   4 Input    1 Bit        Muxes := 256   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7129] Port i_instruction[19] in module Top is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[18] in module Top is either unconnected or has no load
