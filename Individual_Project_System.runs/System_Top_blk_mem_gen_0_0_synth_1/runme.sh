@@ -8,9 +8,9 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/tools/2025.2/Vitis/bin:/tools/2025.2/Vivado/ids_lite/ISE/bin/lin64:/tools/2025.2/Vivado/bin
+  PATH=/opt/2025.2/Vitis/bin:/opt/2025.2/Vivado/ids_lite/ISE/bin/lin64:/opt/2025.2/Vivado/bin
 else
-  PATH=/tools/2025.2/Vitis/bin:/tools/2025.2/Vivado/ids_lite/ISE/bin/lin64:/tools/2025.2/Vivado/bin:$PATH
+  PATH=/opt/2025.2/Vitis/bin:/opt/2025.2/Vivado/ids_lite/ISE/bin/lin64:/opt/2025.2/Vivado/bin:$PATH
 fi
 export PATH
 
@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_blk_mem_gen_0_0_synth_1'
+HD_PWD='/home/gary/Individual-Project_System/Individual_Project_System.runs/System_Top_blk_mem_gen_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

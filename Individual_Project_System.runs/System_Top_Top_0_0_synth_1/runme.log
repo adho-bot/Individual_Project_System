@@ -7,14 +7,14 @@
   **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Thu Mar 12 21:51:20 2026
+  **** Start of session at: Fri Mar 27 12:01:48 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source System_Top_Top_0_0.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gary/Individual_Project/ip'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/2025.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/2025.2/data/ip'.
 Command: synth_design -top System_Top_Top_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -22,30 +22,30 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 43614
+INFO: [Synth 8-7075] Helper process launched with PID 409523
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2238.379 ; gain = 480.875 ; free physical = 925 ; free virtual = 10565
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2244.246 ; gain = 484.188 ; free physical = 388 ; free virtual = 6521
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'System_Top_Top_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
-INFO: [Synth 8-6157] synthesizing module 'Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Top.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'Array_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Array_main.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'PE_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Register_File.sv:9]
-INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Register_File.sv:9]
-INFO: [Synth 8-6157] synthesizing module 'ALU_bitserial' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/ALU_bitserial.sv:6]
-INFO: [Synth 8-6155] done synthesizing module 'ALU_bitserial' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/ALU_bitserial.sv:6]
-INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:106]
-INFO: [Synth 8-6155] done synthesizing module 'PE_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'Array_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Array_main.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_unit.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'Control_FSM' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:3]
-INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:53]
-INFO: [Synth 8-6155] done synthesizing module 'Control_FSM' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'Control_Decode' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:3]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:70]
-INFO: [Synth 8-6155] done synthesizing module 'Control_Decode' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:3]
-INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_unit.sv:3]
-INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Array_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Array_main.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'PE_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/PE_main.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Register_File.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Register_File.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'ALU_bitserial' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/ALU_bitserial.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_bitserial' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/ALU_bitserial.sv:6]
+INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/PE_main.sv:107]
+INFO: [Synth 8-6155] done synthesizing module 'PE_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/PE_main.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'Array_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Array_main.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_unit.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_FSM' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_FSM.sv:4]
+INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_FSM.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'Control_FSM' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_FSM.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_Decode' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_Decode.sv:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_Decode.sv:73]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Decode' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_Decode.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_unit.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Top.sv:1]
 INFO: [Synth 8-6155] done synthesizing module 'System_Top_Top_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
 INFO: [Synth 8-7129] Port i_instruction[19] in module Control_Decode is either unconnected or has no load
 INFO: [Synth 8-7129] Port i_instruction[18] in module Control_Decode is either unconnected or has no load
@@ -71,51 +71,45 @@ INFO: [Synth 8-7129] Port i_instruction[3] in module Control_FSM is either uncon
 INFO: [Synth 8-7129] Port i_instruction[2] in module Control_FSM is either unconnected or has no load
 INFO: [Synth 8-7129] Port i_rstn in module Register_File is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2357.316 ; gain = 599.812 ; free physical = 775 ; free virtual = 10418
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2371.215 ; gain = 611.156 ; free physical = 239 ; free virtual = 6374
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2360.285 ; gain = 602.781 ; free physical = 775 ; free virtual = 10418
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2380.121 ; gain = 620.062 ; free physical = 239 ; free virtual = 6373
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2360.285 ; gain = 602.781 ; free physical = 775 ; free virtual = 10418
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2380.121 ; gain = 620.062 ; free physical = 239 ; free virtual = 6373
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2360.285 ; gain = 0.000 ; free physical = 770 ; free virtual = 10415
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2380.121 ; gain = 0.000 ; free physical = 239 ; free virtual = 6373
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2468.750 ; gain = 0.000 ; free physical = 767 ; free virtual = 10410
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2489.859 ; gain = 0.000 ; free physical = 268 ; free virtual = 6403
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2468.785 ; gain = 0.000 ; free physical = 771 ; free virtual = 10413
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2489.895 ; gain = 0.000 ; free physical = 274 ; free virtual = 6408
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2468.785 ; gain = 711.281 ; free physical = 794 ; free virtual = 10437
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2489.895 ; gain = 729.836 ; free physical = 346 ; free virtual = 6436
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2476.754 ; gain = 719.250 ; free physical = 794 ; free virtual = 10437
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2497.863 ; gain = 737.805 ; free physical = 346 ; free virtual = 6435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2476.754 ; gain = 719.250 ; free physical = 794 ; free virtual = 10437
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2497.863 ; gain = 737.805 ; free physical = 346 ; free virtual = 6435
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'o_state_reg' in module 'Control_FSM'
 ---------------------------------------------------------------------------------------------------
@@ -132,8 +126,9 @@ INFO: [Synth 8-802] inferred FSM for state register 'o_state_reg' in module 'Con
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'o_state_reg' using encoding 'one-hot' in module 'Control_FSM'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2476.754 ; gain = 719.250 ; free physical = 792 ; free virtual = 10438
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2497.863 ; gain = 737.805 ; free physical = 315 ; free virtual = 6407
 ---------------------------------------------------------------------------------
+No constraint files found.
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -161,7 +156,7 @@ Detailed RTL Component Info :
 	   8 Input    3 Bit        Muxes := 3     
 	   2 Input    2 Bit        Muxes := 1     
 	   8 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 2049  
+	   2 Input    1 Bit        Muxes := 1537  
 	   8 Input    1 Bit        Muxes := 266   
 	   4 Input    1 Bit        Muxes := 256   
 ---------------------------------------------------------------------------------
@@ -176,196 +171,36 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
+No constraint files found.
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-7129] Port i_instruction[19] in module Top is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[18] in module Top is either unconnected or has no load
-
-*** Running vivado
-    with args -log System_Top_Top_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_Top_Top_0_0.tcl
-
-
-****** Vivado v2025.2 (64-bit)
-  **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
-  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
-  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Thu Mar 12 22:21:49 2026
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-
-source System_Top_Top_0_0.tcl -notrace
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gary/Individual_Project/ip'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/2025.2/data/ip'.
-Command: synth_design -top System_Top_Top_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
-INFO: [Device 21-403] Loading part xc7z020clg400-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 5060
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[31] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[30] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[29] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[28] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[27] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[26] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[25] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[24] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[23] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[22] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[21] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[20] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[19] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[18] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[17] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[16] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[15] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[14] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[13] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[12] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[11] driven by constant 0
+INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[10] driven by constant 0
+INFO: [Synth 8-7129] Port i_instruction[19] in module System_Top_Top_0_0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port i_instruction[18] in module System_Top_Top_0_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2238.164 ; gain = 481.594 ; free physical = 4618 ; free virtual = 12156
----------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'System_Top_Top_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
-INFO: [Synth 8-6157] synthesizing module 'Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Top.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'Array_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Array_main.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'PE_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Register_File.sv:9]
-INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Register_File.sv:9]
-INFO: [Synth 8-6157] synthesizing module 'ALU_bitserial' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/ALU_bitserial.sv:6]
-INFO: [Synth 8-6155] done synthesizing module 'ALU_bitserial' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/ALU_bitserial.sv:6]
-INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:106]
-INFO: [Synth 8-6155] done synthesizing module 'PE_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/PE_main.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'Array_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Array_main.sv:7]
-INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_unit.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'Control_FSM' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:3]
-INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:53]
-INFO: [Synth 8-6155] done synthesizing module 'Control_FSM' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_FSM.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'Control_Decode' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:3]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:70]
-INFO: [Synth 8-6155] done synthesizing module 'Control_Decode' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_Decode.sv:3]
-INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Control_unit.sv:3]
-INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/60ff/src/Top.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_Top_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
-INFO: [Synth 8-7129] Port i_instruction[19] in module Control_Decode is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[18] in module Control_Decode is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[1] in module Control_Decode is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[0] in module Control_Decode is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[19] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[18] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[17] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[16] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[15] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[14] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[13] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[12] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[11] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[10] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[9] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[8] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[7] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[6] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[5] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[4] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[3] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[2] in module Control_FSM is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_rstn in module Register_File is either unconnected or has no load
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2358.102 ; gain = 601.531 ; free physical = 4496 ; free virtual = 12047
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2361.070 ; gain = 604.500 ; free physical = 4495 ; free virtual = 12047
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2361.070 ; gain = 604.500 ; free physical = 4495 ; free virtual = 12047
----------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2361.070 ; gain = 0.000 ; free physical = 4489 ; free virtual = 12041
-INFO: [Project 1-570] Preparing netlist for logic optimization
-
-Processing XDC Constraints
-Initializing timing engine
-Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc] for cell 'inst'
-Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/dont_touch.xdc]
-Completed Processing XDC Constraints
-
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2470.535 ; gain = 0.000 ; free physical = 4465 ; free virtual = 12031
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2470.570 ; gain = 0.000 ; free physical = 4464 ; free virtual = 12031
-INFO: [Designutils 20-5008] Incremental synthesis strategy off
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2470.570 ; gain = 714.000 ; free physical = 4154 ; free virtual = 11938
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Loading Part and Timing Information
----------------------------------------------------------------------------------
-Loading part: xc7z020clg400-1
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2478.539 ; gain = 721.969 ; free physical = 4152 ; free virtual = 11926
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying 'set_property' XDC Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2478.539 ; gain = 721.969 ; free physical = 4163 ; free virtual = 11882
----------------------------------------------------------------------------------
-INFO: [Synth 8-802] inferred FSM for state register 'o_state_reg' in module 'Control_FSM'
----------------------------------------------------------------------------------------------------
-                   State |                     New Encoding |                Previous Encoding 
----------------------------------------------------------------------------------------------------
-                 iSTATE3 |                         00000001 |                             0001
-                 iSTATE0 |                         10000000 |                             1000
-                  iSTATE |                         00000010 |                             0111
-                 iSTATE1 |                         00000100 |                             0010
-                 iSTATE2 |                         01000000 |                             0011
-                 iSTATE6 |                         00010000 |                             0101
-                 iSTATE5 |                         00001000 |                             0110
-                 iSTATE4 |                         00100000 |                             0100
----------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'o_state_reg' using encoding 'one-hot' in module 'Control_FSM'
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2478.539 ; gain = 721.969 ; free physical = 4121 ; free virtual = 11806
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start RTL Component Statistics 
----------------------------------------------------------------------------------
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input    5 Bit       Adders := 257   
-+---XORs : 
-	   2 Input      1 Bit         XORs := 768   
-+---Registers : 
-	               16 Bit    Registers := 1     
-	                5 Bit    Registers := 1     
-	                1 Bit    Registers := 256   
-+---RAMs : 
-	              128 Bit	(8 X 16 bit)          RAMs := 256   
-+---Muxes : 
-	   2 Input   16 Bit        Muxes := 1     
-	   8 Input    8 Bit        Muxes := 1     
-	   2 Input    8 Bit        Muxes := 5     
-	   4 Input    8 Bit        Muxes := 1     
-	   2 Input    5 Bit        Muxes := 1     
-	   2 Input    4 Bit        Muxes := 257   
-	   4 Input    4 Bit        Muxes := 1     
-	   8 Input    4 Bit        Muxes := 2     
-	   2 Input    3 Bit        Muxes := 2     
-	   8 Input    3 Bit        Muxes := 3     
-	   2 Input    2 Bit        Muxes := 1     
-	   8 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 2049  
-	   8 Input    1 Bit        Muxes := 266   
-	   4 Input    1 Bit        Muxes := 256   
----------------------------------------------------------------------------------
-Finished RTL Component Statistics 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Part Resource Summary
----------------------------------------------------------------------------------
-Part Resources:
-DSPs: 220 (col length:60)
-BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
----------------------------------------------------------------------------------
-Finished Part Resource Summary
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Cross Boundary and Area Optimization
----------------------------------------------------------------------------------
-INFO: [Synth 8-7129] Port i_instruction[19] in module Top is either unconnected or has no load
-INFO: [Synth 8-7129] Port i_instruction[18] in module Top is either unconnected or has no load
----------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:27 ; elapsed = 00:03:29 . Memory (MB): peak = 3272.578 ; gain = 1516.008 ; free physical = 3506 ; free virtual = 11220
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:42 ; elapsed = 00:03:44 . Memory (MB): peak = 3272.105 ; gain = 1512.047 ; free physical = 332 ; free virtual = 6054
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -637,17 +472,12 @@ Note: The table above is a preliminary report that shows the Distributed RAMs at
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:30 ; elapsed = 00:03:33 . Memory (MB): peak = 3278.516 ; gain = 1521.945 ; free physical = 3512 ; free virtual = 11234
----------------------------------------------------------------------------------
+No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:32 ; elapsed = 00:03:35 . Memory (MB): peak = 3278.516 ; gain = 1521.945 ; free physical = 3520 ; free virtual = 11242
+Finished Timing Optimization : Time (s): cpu = 00:03:44 ; elapsed = 00:03:47 . Memory (MB): peak = 3272.105 ; gain = 1512.047 ; free physical = 327 ; free virtual = 6052
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -922,7 +752,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:35 ; elapsed = 00:03:38 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 4016 ; free virtual = 11737
+Finished Technology Mapping : Time (s): cpu = 00:03:48 ; elapsed = 00:03:50 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 968 ; free virtual = 6692
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -940,37 +770,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:42 ; elapsed = 00:03:45 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3983 ; free virtual = 11704
+Finished IO Insertion : Time (s): cpu = 00:03:55 ; elapsed = 00:03:57 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 690 ; free virtual = 6418
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:42 ; elapsed = 00:03:45 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3983 ; free virtual = 11704
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:55 ; elapsed = 00:03:57 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 690 ; free virtual = 6418
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3978 ; free virtual = 11698
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:55 ; elapsed = 00:03:58 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 702 ; free virtual = 6429
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3978 ; free virtual = 11700
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:56 ; elapsed = 00:03:58 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 702 ; free virtual = 6429
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3978 ; free virtual = 11700
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:56 ; elapsed = 00:03:58 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 701 ; free virtual = 6429
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3979 ; free virtual = 11699
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 707 ; free virtual = 6434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -987,46 +817,46 @@ Report Cell Usage:
 |      |Cell     |Count |
 +------+---------+------+
 |1     |LUT1     |     1|
-|2     |LUT2     |     9|
-|3     |LUT3     |   177|
-|4     |LUT4     |   941|
-|5     |LUT5     |  4918|
-|6     |LUT6     |  3868|
-|7     |MUXF7    |  1894|
-|8     |MUXF8    |   290|
+|2     |LUT2     |    14|
+|3     |LUT3     |   180|
+|4     |LUT4     |   875|
+|5     |LUT5     |  4768|
+|6     |LUT6     |  4027|
+|7     |MUXF7    |  1792|
+|8     |MUXF8    |   256|
 |9     |RAM16X1D |  8192|
 |10    |FDCE     |   337|
 |11    |FDPE     |     1|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3321.234 ; gain = 1564.664 ; free physical = 3979 ; free virtual = 11699
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 707 ; free virtual = 6434
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:03:40 ; elapsed = 00:03:44 . Memory (MB): peak = 3321.234 ; gain = 1455.164 ; free physical = 3979 ; free virtual = 11699
-Synthesis Optimization Complete : Time (s): cpu = 00:03:43 ; elapsed = 00:03:46 . Memory (MB): peak = 3321.242 ; gain = 1564.664 ; free physical = 3979 ; free virtual = 11699
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:53 ; elapsed = 00:03:56 . Memory (MB): peak = 3314.824 ; gain = 1444.992 ; free physical = 707 ; free virtual = 6434
+Synthesis Optimization Complete : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3314.832 ; gain = 1554.766 ; free physical = 709 ; free virtual = 6437
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3321.242 ; gain = 0.000 ; free physical = 4117 ; free virtual = 11843
-INFO: [Netlist 29-17] Analyzing 10376 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 3314.832 ; gain = 0.000 ; free physical = 869 ; free virtual = 6590
+INFO: [Netlist 29-17] Analyzing 10240 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3377.262 ; gain = 0.000 ; free physical = 4080 ; free virtual = 11806
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3370.852 ; gain = 0.000 ; free physical = 799 ; free virtual = 6520
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8192 instances were transformed.
   RAM16X1D => RAM32X1D (RAMD32(x2)): 8192 instances
 
-Synth Design complete | Checksum: af884b99
+Synth Design complete | Checksum: d22d1115
 INFO: [Common 17-83] Releasing license: Synthesis
-66 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+88 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:55 ; elapsed = 00:03:56 . Memory (MB): peak = 3377.297 ; gain = 1814.305 ; free physical = 4072 ; free virtual = 11798
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2658.741; main = 2378.023; forked = 280.905
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4315.453; main = 3377.266; forked = 994.215
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3401.273 ; gain = 0.000 ; free physical = 4067 ; free virtual = 11799
+synth_design: Time (s): cpu = 00:04:07 ; elapsed = 00:04:08 . Memory (MB): peak = 3370.887 ; gain = 1796.500 ; free physical = 807 ; free virtual = 6528
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2557.637; main = 2306.096; forked = 251.697
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4334.430; main = 3370.855; forked = 1019.602
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3394.863 ; gain = 0.000 ; free physical = 802 ; free virtual = 6530
 INFO: [Common 17-1381] The checkpoint '/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/System_Top_Top_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP System_Top_Top_0_0, cache-ID = 1049ff262271fdf3
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP System_Top_Top_0_0, cache-ID = ddb0d918b5b4c286
 INFO: [Coretcl 2-1174] Renamed 772 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3401.273 ; gain = 0.000 ; free physical = 4045 ; free virtual = 11816
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3394.863 ; gain = 0.000 ; free physical = 830 ; free virtual = 6594
 INFO: [Common 17-1381] The checkpoint '/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/System_Top_Top_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file System_Top_Top_0_0_utilization_synth.rpt -pb System_Top_Top_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Mar 12 22:25:57 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 12:06:07 2026...

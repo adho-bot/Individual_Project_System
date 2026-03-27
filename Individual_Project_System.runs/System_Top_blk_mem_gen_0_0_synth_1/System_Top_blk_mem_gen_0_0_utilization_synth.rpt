@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
-| Date         : Thu Mar 12 22:34:54 2026
+| Date         : Wed Mar 25 22:50:25 2026
 | Host         : gary-IdeaPad-Slim-5-Light-14ABR8 running 64-bit Ubuntu 24.04.4 LTS
 | Command      : report_utilization -file System_Top_blk_mem_gen_0_0_utilization_synth.rpt -pb System_Top_blk_mem_gen_0_0_utilization_synth.pb
 | Design       : System_Top_blk_mem_gen_0_0
@@ -74,9 +74,9 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +-------------------+------+-------+------------+-----------+-------+
 |     Site Type     | Used | Fixed | Prohibited | Available | Util% |
 +-------------------+------+-------+------------+-----------+-------+
-| Block RAM Tile    |    8 |     0 |          0 |       140 |  5.71 |
-|   RAMB36/FIFO*    |    8 |     0 |          0 |       140 |  5.71 |
-|     RAMB36E1 only |    8 |       |            |           |       |
+| Block RAM Tile    |    4 |     0 |          0 |       140 |  2.86 |
+|   RAMB36/FIFO*    |    4 |     0 |          0 |       140 |  2.86 |
+|     RAMB36E1 only |    4 |       |            |           |       |
 |   RAMB18          |    0 |     0 |          0 |       280 |  0.00 |
 +-------------------+------+-------+------------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
@@ -155,8 +155,8 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDRE     |   12 |        Flop & Latch |
-| RAMB36E1 |    8 |        Block Memory |
 | LUT2     |    6 |                 LUT |
+| RAMB36E1 |    4 |        Block Memory |
 | SRL16E   |    2 |  Distributed Memory |
 | LUT4     |    2 |                 LUT |
 +----------+------+---------------------+

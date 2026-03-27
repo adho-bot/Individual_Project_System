@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:Top:1.0
-// IP Revision: 3
+// IP Revision: 2
 
 `timescale 1ns/1ps
 
@@ -86,7 +86,7 @@ output wire o_Control_ready;
 
   Top #(
     .DATA_WIDTH(16),
-    .REG_DEPTH(4),
+    .REG_DEPTH(8),
     .ARRAY_BASE_ADDR(32'H00000000),
     .ROW_LENGTH(16),
     .COL_LENGTH(16)

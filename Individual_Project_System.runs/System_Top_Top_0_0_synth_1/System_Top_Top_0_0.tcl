@@ -71,7 +71,6 @@ set_property parent.project_path /home/gary/Individual_Project_System/Individual
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {/home/gary/.Xilinx/Vivado/2025.2/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
 set_property ip_repo_paths /home/gary/Individual_Project/ip [current_project]
 update_ip_catalog
@@ -80,8 +79,6 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_ip -quiet /home/gary/Individual_Project_System/Individual_Project_System.srcs/sources_1/bd/System_Top/ip/System_Top_Top_0_0/System_Top_Top_0_0.xci
-set_property used_in_implementation false [get_files -all {{/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/src/PYNQ-Z2 v1.0.xdc}}]
-set_property used_in_implementation false [get_files -all {{/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/597b/PYNQ-Z2 v1.0.xdc}}]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -92,8 +89,6 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc dont_touch.xdc
-set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 OPTRACE "Configure IP Cache" START { }
 

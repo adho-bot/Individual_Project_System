@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xE5DD7156DFF7DE37",
+      "boundary_crc": "0x4C79782C31F625B0",
       "design_src": "SBD",
       "device": "xc7z020clg400-1",
       "name": "bd_a752",
@@ -213,7 +213,7 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "13",
+            "value": "14",
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
@@ -1368,10 +1368,10 @@
                 "value": "0"
               },
               "SEG000_SEP_ROUTE": {
-                "value": "0b0000000000000000000000000000000000000000000000000000000000000000"
+                "value": "0b0000000000000000000000000000000000000000000000000000000000000001"
               },
               "SEG000_SIZE": {
-                "value": "13"
+                "value": "7"
               },
               "SEG000_SUPPORTS_READ": {
                 "value": "1"
@@ -1380,7 +1380,7 @@
                 "value": "1"
               },
               "SEG001_BASE_ADDR": {
-                "value": "0x0000000040002000"
+                "value": "0x0000000042000000"
               },
               "SEG001_SECURE_READ": {
                 "value": "0"
@@ -1389,10 +1389,10 @@
                 "value": "0"
               },
               "SEG001_SEP_ROUTE": {
-                "value": "0b0000000000000000000000000000000000000000000000000000000000000001"
+                "value": "0b0000000000000000000000000000000000000000000000000000000000000000"
               },
               "SEG001_SIZE": {
-                "value": "12"
+                "value": "14"
               },
               "SEG001_SUPPORTS_READ": {
                 "value": "1"
@@ -1607,7 +1607,7 @@
                 "value": "READ_WRITE"
               },
               "SEP000_PROTOCOL": {
-                "value": "AXI4"
+                "value": "AXI4LITE"
               },
               "SEP000_RDATA_WIDTH": {
                 "value": "32"
@@ -1616,7 +1616,7 @@
                 "value": "32"
               },
               "SEP001_PROTOCOL": {
-                "value": "AXI4LITE"
+                "value": "AXI4"
               },
               "SEP001_RDATA_WIDTH": {
                 "value": "32"
@@ -2945,7 +2945,7 @@
         "has_run_ip_tcl": "true",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "13"
+            "value": "14"
           },
           "AXI_ID_WIDTH": {
             "value": "3"
@@ -4196,7 +4196,7 @@
             "has_run_ip_tcl": "true",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "13"
+                "value": "14"
               },
               "HAS_BURST": {
                 "value": "1"

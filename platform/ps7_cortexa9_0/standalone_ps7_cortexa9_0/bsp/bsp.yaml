@@ -5,7 +5,7 @@ config: None
 os: standalone
 os_info:
   standalone:
-    path: /tools/2025.2/Vitis/data/embeddedsw/lib/bsp/standalone_v9_4
+    path: /opt/2025.2/Vitis/data/embeddedsw/lib/bsp/standalone_v9_4
 os_config:
   standalone:
     standalone_enable_sw_intrusive_profiling:
@@ -156,7 +156,7 @@ drv_info:
   axi_bram_ctrl_0:
     driver: bram
     ip_name: axi_bram_ctrl
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_13
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_13
   ps7_afi_0: None
   ps7_afi_1: None
   ps7_afi_2: None
@@ -164,31 +164,31 @@ drv_info:
   ps7_coresight_comp_0:
     driver: coresightps_dcc
     ip_name: ps7_coresight_comp
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_13
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_13
   ps7_ddrc_0: None
   ps7_dev_cfg_0:
     driver: devcfg
     ip_name: ps7_dev_cfg
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_9
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_9
   ps7_dma_ns: None
   ps7_dma_s:
     driver: dmaps
     ip_name: ps7_dma
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_11
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_11
   ps7_ethernet_0:
     driver: emacps
     ip_name: ps7_ethernet
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_23
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_23
   ps7_globaltimer_0: None
   ps7_gpio_0:
     driver: gpiops
     ip_name: ps7_gpio
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_14
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_14
   ps7_gpv_0: None
   ps7_intc_dist_0:
     driver: scugic
     ip_name: ps7_intc_dist
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v5_6
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v5_6
   ps7_iop_bus_config_0: None
   ps7_ocmc_0: None
   ps7_pl310_0: None
@@ -196,36 +196,36 @@ drv_info:
   ps7_qspi_0:
     driver: qspips
     ip_name: ps7_qspi
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_14
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_14
   ps7_scuc_0: None
   ps7_scutimer_0:
     driver: scutimer
     ip_name: ps7_scutimer
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_7
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_7
   ps7_scuwdt_0:
     driver: scuwdt
     ip_name: ps7_scuwdt
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_6
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_6
   ps7_sd_0:
     driver: sdps
     ip_name: ps7_sdio
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v4_5
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v4_5
   ps7_slcr_0: None
   ps7_uart_0:
     driver: uartps
     ip_name: ps7_uart
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_17
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_17
   ps7_usb_0:
     driver: usbps
     ip_name: ps7_usb
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_10
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_10
   ps7_xadc_0:
     driver: xadcps
     ip_name: ps7_xadc
-    path: /tools/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_7
+    path: /opt/2025.2/Vitis/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_7
 lib_info:
   xiltimer:
-    path: /tools/2025.2/Vitis/data/embeddedsw/lib/sw_services/xiltimer_v2_3
+    path: /opt/2025.2/Vitis/data/embeddedsw/lib/sw_services/xiltimer_v2_3
     examples: {}
 lib_config:
   xiltimer:

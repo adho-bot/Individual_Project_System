@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:Top:1.0
-// IP Revision: 3
+// IP Revision: 2
 
 (* X_CORE_INFO = "Top,Vivado 2025.2" *)
 (* CHECK_LICENSE_TYPE = "System_Top_Top_0_0,Top,{}" *)

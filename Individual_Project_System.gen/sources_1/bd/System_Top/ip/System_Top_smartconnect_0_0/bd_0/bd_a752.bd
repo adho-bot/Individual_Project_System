@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xA6E74AC8842F5DB0",
+      "boundary_crc": "0x4C79782C31F625B0",
       "design_src": "SBD",
       "device": "xc7z020clg400-1",
       "name": "bd_a752",
@@ -213,7 +213,7 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "15",
+            "value": "14",
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
@@ -1371,7 +1371,7 @@
                 "value": "0b0000000000000000000000000000000000000000000000000000000000000001"
               },
               "SEG000_SIZE": {
-                "value": "8"
+                "value": "7"
               },
               "SEG000_SUPPORTS_READ": {
                 "value": "1"
@@ -1392,7 +1392,7 @@
                 "value": "0b0000000000000000000000000000000000000000000000000000000000000000"
               },
               "SEG001_SIZE": {
-                "value": "15"
+                "value": "14"
               },
               "SEG001_SUPPORTS_READ": {
                 "value": "1"
@@ -2945,7 +2945,7 @@
         "has_run_ip_tcl": "true",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "15"
+            "value": "14"
           },
           "AXI_ID_WIDTH": {
             "value": "3"
@@ -4196,7 +4196,7 @@
             "has_run_ip_tcl": "true",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "15"
+                "value": "14"
               },
               "HAS_BURST": {
                 "value": "1"

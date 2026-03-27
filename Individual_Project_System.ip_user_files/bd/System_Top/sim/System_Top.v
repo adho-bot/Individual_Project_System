@@ -2,7 +2,7 @@
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
-//Date        : Thu Mar 12 05:59:31 2026
+//Date        : Fri Mar 27 12:01:11 2026
 //Host        : gary-IdeaPad-Slim-5-Light-14ABR8 running 64-bit Ubuntu 24.04.4 LTS
 //Command     : generate_target System_Top.bd
 //Design      : System_Top
@@ -90,7 +90,7 @@ module System_Top
   wire [15:0]Top_0_o_array_data;
   wire Top_0_o_rd_en;
   wire Top_0_o_wr_en;
-  wire [12:0]axi_bram_ctrl_0_BRAM_PORTA_ADDR;
+  wire [13:0]axi_bram_ctrl_0_BRAM_PORTA_ADDR;
   wire axi_bram_ctrl_0_BRAM_PORTA_CLK;
   wire [31:0]axi_bram_ctrl_0_BRAM_PORTA_DIN;
   wire [31:0]axi_bram_ctrl_0_BRAM_PORTA_DOUT;
@@ -139,7 +139,7 @@ module System_Top
   wire processing_system7_0_M_AXI_GP0_WREADY;
   wire [3:0]processing_system7_0_M_AXI_GP0_WSTRB;
   wire processing_system7_0_M_AXI_GP0_WVALID;
-  wire [12:0]smartconnect_0_M00_AXI_ARADDR;
+  wire [13:0]smartconnect_0_M00_AXI_ARADDR;
   wire [1:0]smartconnect_0_M00_AXI_ARBURST;
   wire [3:0]smartconnect_0_M00_AXI_ARCACHE;
   wire [7:0]smartconnect_0_M00_AXI_ARLEN;
@@ -148,7 +148,7 @@ module System_Top
   wire smartconnect_0_M00_AXI_ARREADY;
   wire [2:0]smartconnect_0_M00_AXI_ARSIZE;
   wire smartconnect_0_M00_AXI_ARVALID;
-  wire [12:0]smartconnect_0_M00_AXI_AWADDR;
+  wire [13:0]smartconnect_0_M00_AXI_AWADDR;
   wire [1:0]smartconnect_0_M00_AXI_AWBURST;
   wire [3:0]smartconnect_0_M00_AXI_AWCACHE;
   wire [7:0]smartconnect_0_M00_AXI_AWLEN;
@@ -240,7 +240,7 @@ module System_Top
         .o_array_data(Top_0_o_array_data),
         .o_rd_en(Top_0_o_rd_en),
         .o_wr_en(Top_0_o_wr_en));
-  (* BMM_INFO_ADDRESS_SPACE = "byte  0x40000000 32 > System_Top blk_mem_gen_0" *) 
+  (* BMM_INFO_ADDRESS_SPACE = "byte  0x42000000 32 > System_Top blk_mem_gen_0" *) 
   (* KEEP_HIERARCHY = "YES" *) 
   System_Top_axi_bram_ctrl_0_0 axi_bram_ctrl_0
        (.bram_addr_a(axi_bram_ctrl_0_BRAM_PORTA_ADDR),
@@ -284,7 +284,7 @@ module System_Top
         .s_axi_wstrb(smartconnect_0_M00_AXI_WSTRB),
         .s_axi_wvalid(smartconnect_0_M00_AXI_WVALID));
   System_Top_blk_mem_gen_0_0 blk_mem_gen_0
-       (.addra({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_bram_ctrl_0_BRAM_PORTA_ADDR}),
+       (.addra({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_bram_ctrl_0_BRAM_PORTA_ADDR}),
         .addrb(BRAM_Wrapper_0_o_bram_addrb),
         .clka(axi_bram_ctrl_0_BRAM_PORTA_CLK),
         .clkb(BRAM_Wrapper_0_clkb),
