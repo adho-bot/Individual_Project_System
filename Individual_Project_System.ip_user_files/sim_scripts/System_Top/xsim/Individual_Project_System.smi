@@ -11,9 +11,9 @@
 
 <MemInfoSimulation Version="1" Minor="1">
   <Processor Endianness="Little" InstPath="System_Top_i/processing_system7_0">
-    <AddressSpace Name="System_Top_i_processing_system7_0.System_Top_i_blk_mem_gen_0_ADDR_SPACE" ECC="NONE" Begin="1107296256" End="1107312639">
+    <AddressSpace Name="System_Top_i_processing_system7_0.System_Top_i_blk_mem_gen_0_16K_6_ADDR_SPACE" ECC="NONE" Begin="1107296256" End="1107312639">
       <BusBlock>
-        <BitLane MemType="blk_mem_gen_0_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="1107312639">
+        <BitLane MemType="blk_mem_gen_0_16K_6_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="1107312639">
           <DataWidth MSB="31" LSB="0"/>
           <AddressRange Begin="0" End="4095"/>
           <Parity ON="false" NumBits="0"/>

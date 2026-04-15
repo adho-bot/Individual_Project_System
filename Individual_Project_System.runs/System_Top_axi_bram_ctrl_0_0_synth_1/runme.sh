@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/gary/Individual-Project_System/Individual_Project_System.runs/System_Top_axi_bram_ctrl_0_0_synth_1'
+HD_PWD='/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_axi_bram_ctrl_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

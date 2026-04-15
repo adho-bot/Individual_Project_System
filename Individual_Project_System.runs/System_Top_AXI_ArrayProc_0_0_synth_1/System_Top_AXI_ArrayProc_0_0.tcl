@@ -57,6 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "System_Top_AXI_ArrayProc_0_0_synth_1" START { ROLLUP_AUTO }
 set_param bd.open.in_stealth_mode 1
+set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
 set_param project.vivado.isBlockSynthRun true
 OPTRACE "Creating in-memory project" START { }
@@ -71,7 +72,6 @@ set_property parent.project_path /home/gary/Individual_Project_System/Individual
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {/home/gary/.Xilinx/Vivado/2025.2/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
 set_property ip_repo_paths /home/gary/Individual_Project/ip [current_project]
 update_ip_catalog

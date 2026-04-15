@@ -57,6 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "System_Top_Top_0_0_synth_1" START { ROLLUP_AUTO }
 set_param bd.open.in_stealth_mode 1
+set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
 set_param project.vivado.isBlockSynthRun true
 OPTRACE "Creating in-memory project" START { }

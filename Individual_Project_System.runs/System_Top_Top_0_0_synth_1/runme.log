@@ -7,7 +7,7 @@
   **** SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Fri Mar 27 12:01:48 2026
+  **** Start of session at: Tue Apr 14 11:52:24 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -22,30 +22,30 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 409523
+INFO: [Synth 8-7075] Helper process launched with PID 196329
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2244.246 ; gain = 484.188 ; free physical = 388 ; free virtual = 6521
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2243.453 ; gain = 483.156 ; free physical = 2537 ; free virtual = 7540
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'System_Top_Top_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
-INFO: [Synth 8-6157] synthesizing module 'Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Top.sv:1]
-INFO: [Synth 8-6157] synthesizing module 'Array_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Array_main.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'PE_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/PE_main.sv:2]
-INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Register_File.sv:9]
-INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Register_File.sv:9]
-INFO: [Synth 8-6157] synthesizing module 'ALU_bitserial' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/ALU_bitserial.sv:6]
-INFO: [Synth 8-6155] done synthesizing module 'ALU_bitserial' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/ALU_bitserial.sv:6]
-INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/PE_main.sv:107]
-INFO: [Synth 8-6155] done synthesizing module 'PE_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/PE_main.sv:2]
-INFO: [Synth 8-6155] done synthesizing module 'Array_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Array_main.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_unit.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'Control_FSM' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_FSM.sv:4]
-INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_FSM.sv:54]
-INFO: [Synth 8-6155] done synthesizing module 'Control_FSM' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_FSM.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'Control_Decode' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_Decode.sv:6]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_Decode.sv:73]
-INFO: [Synth 8-6155] done synthesizing module 'Control_Decode' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_Decode.sv:6]
-INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Control_unit.sv:4]
-INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/6055/src/Top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'Array_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Array_main.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'PE_Main' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/PE_main.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Register_File.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Register_File.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'ALU_bitserial' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/ALU_bitserial.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_bitserial' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/ALU_bitserial.sv:6]
+INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/PE_main.sv:107]
+INFO: [Synth 8-6155] done synthesizing module 'PE_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/PE_main.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'Array_Main' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Array_main.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_unit.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_FSM' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_FSM.sv:4]
+INFO: [Synth 8-226] default block is never used [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_FSM.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'Control_FSM' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_FSM.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_Decode' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_Decode.sv:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_Decode.sv:73]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Decode' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_Decode.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Control_unit.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ipshared/757c/src/Top.sv:1]
 INFO: [Synth 8-6155] done synthesizing module 'System_Top_Top_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/ip/System_Top_Top_0_0/synth/System_Top_Top_0_0.sv:53]
 INFO: [Synth 8-7129] Port i_instruction[19] in module Control_Decode is either unconnected or has no load
 INFO: [Synth 8-7129] Port i_instruction[18] in module Control_Decode is either unconnected or has no load
@@ -71,45 +71,45 @@ INFO: [Synth 8-7129] Port i_instruction[3] in module Control_FSM is either uncon
 INFO: [Synth 8-7129] Port i_instruction[2] in module Control_FSM is either unconnected or has no load
 INFO: [Synth 8-7129] Port i_rstn in module Register_File is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2371.215 ; gain = 611.156 ; free physical = 239 ; free virtual = 6374
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2369.391 ; gain = 609.094 ; free physical = 2410 ; free virtual = 7414
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2380.121 ; gain = 620.062 ; free physical = 239 ; free virtual = 6373
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2384.234 ; gain = 623.938 ; free physical = 2410 ; free virtual = 7414
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2380.121 ; gain = 620.062 ; free physical = 239 ; free virtual = 6373
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2384.234 ; gain = 623.938 ; free physical = 2410 ; free virtual = 7414
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2380.121 ; gain = 0.000 ; free physical = 239 ; free virtual = 6373
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2384.234 ; gain = 0.000 ; free physical = 2410 ; free virtual = 7413
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2489.859 ; gain = 0.000 ; free physical = 268 ; free virtual = 6403
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2486.973 ; gain = 0.000 ; free physical = 2403 ; free virtual = 7407
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2489.895 ; gain = 0.000 ; free physical = 274 ; free virtual = 6408
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.2 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2487.008 ; gain = 0.000 ; free physical = 2403 ; free virtual = 7407
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2489.895 ; gain = 729.836 ; free physical = 346 ; free virtual = 6436
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2487.008 ; gain = 726.711 ; free physical = 2431 ; free virtual = 7435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2497.863 ; gain = 737.805 ; free physical = 346 ; free virtual = 6435
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2494.977 ; gain = 734.680 ; free physical = 2431 ; free virtual = 7435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2497.863 ; gain = 737.805 ; free physical = 346 ; free virtual = 6435
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2494.977 ; gain = 734.680 ; free physical = 2431 ; free virtual = 7434
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'o_state_reg' in module 'Control_FSM'
 ---------------------------------------------------------------------------------------------------
@@ -126,7 +126,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'o_state_reg' in module 'Con
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'o_state_reg' using encoding 'one-hot' in module 'Control_FSM'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2497.863 ; gain = 737.805 ; free physical = 315 ; free virtual = 6407
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2494.977 ; gain = 734.680 ; free physical = 2383 ; free virtual = 7389
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -141,23 +141,21 @@ Detailed RTL Component Info :
 	               16 Bit    Registers := 1     
 	                5 Bit    Registers := 1     
 	                1 Bit    Registers := 256   
-+---RAMs : 
-	              128 Bit	(8 X 16 bit)          RAMs := 256   
 +---Muxes : 
 	   2 Input   16 Bit        Muxes := 1     
 	   8 Input    8 Bit        Muxes := 1     
 	   2 Input    8 Bit        Muxes := 5     
 	   4 Input    8 Bit        Muxes := 1     
 	   2 Input    5 Bit        Muxes := 1     
-	   2 Input    4 Bit        Muxes := 257   
+	   2 Input    4 Bit        Muxes := 769   
 	   4 Input    4 Bit        Muxes := 1     
 	   8 Input    4 Bit        Muxes := 2     
 	   2 Input    3 Bit        Muxes := 2     
 	   8 Input    3 Bit        Muxes := 3     
 	   2 Input    2 Bit        Muxes := 1     
 	   8 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 1537  
 	   8 Input    1 Bit        Muxes := 266   
+	   2 Input    1 Bit        Muxes := 1025  
 	   4 Input    1 Bit        Muxes := 256   
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -200,273 +198,273 @@ INFO: [Synth 8-3917] design System_Top_Top_0_0 has port o_array_address[10] driv
 INFO: [Synth 8-7129] Port i_instruction[19] in module System_Top_Top_0_0 is either unconnected or has no load
 INFO: [Synth 8-7129] Port i_instruction[18] in module System_Top_Top_0_0 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:42 ; elapsed = 00:03:44 . Memory (MB): peak = 3272.105 ; gain = 1512.047 ; free physical = 332 ; free virtual = 6054
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2529.188 ; gain = 768.891 ; free physical = 2402 ; free virtual = 7402
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 Distributed RAM: Preliminary Mapping Report (see note below)
-+------------+-------------------------------+-----------+----------------------+----------------+
-|Module Name | RTL Object                    | Inference | Size (Depth x Width) | Primitives     | 
-+------------+-------------------------------+-----------+----------------------+----------------+
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-+------------+-------------------------------+-----------+----------------------+----------------+
++------------+-------------------------------+----------------+----------------------+----------------+
+|Module Name | RTL Object                    | Inference      | Size (Depth x Width) | Primitives     | 
++------------+-------------------------------+----------------+----------------------+----------------+
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
++------------+-------------------------------+----------------+----------------------+----------------+
 
 Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
 ---------------------------------------------------------------------------------
@@ -477,273 +475,273 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:44 ; elapsed = 00:03:47 . Memory (MB): peak = 3272.105 ; gain = 1512.047 ; free physical = 327 ; free virtual = 6052
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 2529.188 ; gain = 768.891 ; free physical = 2408 ; free virtual = 7407
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 Distributed RAM: Final Mapping Report
-+------------+-------------------------------+-----------+----------------------+----------------+
-|Module Name | RTL Object                    | Inference | Size (Depth x Width) | Primitives     | 
-+------------+-------------------------------+-----------+----------------------+----------------+
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-|PE_Main:    | register_file_inst/rf_mem_reg | Implied   | 8 x 16               | RAM16X1D x 32  | 
-+------------+-------------------------------+-----------+----------------------+----------------+
++------------+-------------------------------+----------------+----------------------+----------------+
+|Module Name | RTL Object                    | Inference      | Size (Depth x Width) | Primitives     | 
++------------+-------------------------------+----------------+----------------------+----------------+
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
+|PE_Main:    | register_file_inst/rf_mem_reg | User Attribute | 128 x 1              | RAM128X1D x 2  | 
++------------+-------------------------------+----------------+----------------------+----------------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -752,7 +750,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:48 ; elapsed = 00:03:50 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 968 ; free virtual = 6692
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2529.188 ; gain = 768.891 ; free physical = 2408 ; free virtual = 7407
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -770,37 +768,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:55 ; elapsed = 00:03:57 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 690 ; free virtual = 6418
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2376 ; free virtual = 7376
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:55 ; elapsed = 00:03:57 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 690 ; free virtual = 6418
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2376 ; free virtual = 7376
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:55 ; elapsed = 00:03:58 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 702 ; free virtual = 6429
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2368 ; free virtual = 7368
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:03:56 ; elapsed = 00:03:58 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 702 ; free virtual = 6429
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2368 ; free virtual = 7368
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:56 ; elapsed = 00:03:58 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 701 ; free virtual = 6429
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2375 ; free virtual = 7375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 707 ; free virtual = 6434
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2375 ; free virtual = 7375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -813,50 +811,48 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+---------+------+
-|      |Cell     |Count |
-+------+---------+------+
-|1     |LUT1     |     1|
-|2     |LUT2     |    14|
-|3     |LUT3     |   180|
-|4     |LUT4     |   875|
-|5     |LUT5     |  4768|
-|6     |LUT6     |  4027|
-|7     |MUXF7    |  1792|
-|8     |MUXF8    |   256|
-|9     |RAM16X1D |  8192|
-|10    |FDCE     |   337|
-|11    |FDPE     |     1|
-+------+---------+------+
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |LUT1      |     1|
+|2     |LUT2      |    14|
+|3     |LUT3      |   100|
+|4     |LUT4      |   624|
+|5     |LUT5      |   400|
+|6     |LUT6      |  1221|
+|7     |RAM128X1D |   512|
+|8     |FDCE      |   349|
+|9     |FDPE      |     1|
++------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3314.824 ; gain = 1554.766 ; free physical = 707 ; free virtual = 6434
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 2603.000 ; gain = 842.703 ; free physical = 2372 ; free virtual = 7372
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:03:53 ; elapsed = 00:03:56 . Memory (MB): peak = 3314.824 ; gain = 1444.992 ; free physical = 707 ; free virtual = 6434
-Synthesis Optimization Complete : Time (s): cpu = 00:03:56 ; elapsed = 00:03:59 . Memory (MB): peak = 3314.832 ; gain = 1554.766 ; free physical = 709 ; free virtual = 6437
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2603.000 ; gain = 739.930 ; free physical = 2372 ; free virtual = 7372
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 2603.008 ; gain = 842.703 ; free physical = 2372 ; free virtual = 7371
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 3314.832 ; gain = 0.000 ; free physical = 869 ; free virtual = 6590
-INFO: [Netlist 29-17] Analyzing 10240 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2622.844 ; gain = 0.000 ; free physical = 2452 ; free virtual = 7451
+INFO: [Netlist 29-17] Analyzing 512 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3370.852 ; gain = 0.000 ; free physical = 799 ; free virtual = 6520
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2786.402 ; gain = 0.000 ; free physical = 2424 ; free virtual = 7424
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 8192 instances were transformed.
-  RAM16X1D => RAM32X1D (RAMD32(x2)): 8192 instances
+  A total of 512 instances were transformed.
+  RAM128X1D => RAM128X1D (MUXF7(x2), RAMD64E(x4)): 512 instances
 
-Synth Design complete | Checksum: d22d1115
+Synth Design complete | Checksum: c77b39e5
 INFO: [Common 17-83] Releasing license: Synthesis
 88 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:04:07 ; elapsed = 00:04:08 . Memory (MB): peak = 3370.887 ; gain = 1796.500 ; free physical = 807 ; free virtual = 6528
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2557.637; main = 2306.096; forked = 251.697
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4334.430; main = 3370.855; forked = 1019.602
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3394.863 ; gain = 0.000 ; free physical = 802 ; free virtual = 6530
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 2786.438 ; gain = 1162.000 ; free physical = 2426 ; free virtual = 7425
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1816.094; main = 1773.899; forked = 255.266
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3548.789; main = 2786.406; forked = 1019.598
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2810.414 ; gain = 0.000 ; free physical = 2424 ; free virtual = 7425
 INFO: [Common 17-1381] The checkpoint '/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/System_Top_Top_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP System_Top_Top_0_0, cache-ID = ddb0d918b5b4c286
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP System_Top_Top_0_0, cache-ID = dbabf1bca3b99e44
 INFO: [Coretcl 2-1174] Renamed 772 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3394.863 ; gain = 0.000 ; free physical = 830 ; free virtual = 6594
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2810.414 ; gain = 0.000 ; free physical = 2428 ; free virtual = 7436
 INFO: [Common 17-1381] The checkpoint '/home/gary/Individual_Project_System/Individual_Project_System.runs/System_Top_Top_0_0_synth_1/System_Top_Top_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file System_Top_Top_0_0_utilization_synth.rpt -pb System_Top_Top_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 12:06:07 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 11:53:17 2026...

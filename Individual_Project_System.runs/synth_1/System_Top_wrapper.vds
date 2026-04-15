@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri Mar 27 12:06:09 2026
-# Process ID         : 410817
+# Start of session at: Tue Apr 14 11:53:18 2026
+# Process ID         : 196844
 # Current directory  : /home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1
 # Command line       : vivado -log System_Top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_Top_wrapper.tcl
 # Log file           : /home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/System_Top_wrapper.vds
@@ -13,13 +13,13 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.4 LTS
 # Processor Detail   : AMD Ryzen 7 7730U with Radeon Graphics
-# CPU Frequency      : 3123.951 MHz
+# CPU Frequency      : 3272.547 MHz
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 14479 MB
 # Swap memory        : 4294 MB
 # Total Virtual      : 18774 MB
-# Available Virtual  : 8672 MB
+# Available Virtual  : 9376 MB
 #-----------------------------------------------------------
 source System_Top_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
@@ -37,57 +37,57 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 410921
+INFO: [Synth 8-7075] Helper process launched with PID 196918
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2270.684 ; gain = 482.844 ; free physical = 1165 ; free virtual = 6976
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2270.418 ; gain = 482.188 ; free physical = 2416 ; free virtual = 7433
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'System_Top_wrapper' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/hdl/System_Top_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'System_Top' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:13]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_AXI_ArrayProc_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_AXI_ArrayProc_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_AXI_ArrayProc_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_AXI_ArrayProc_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_BRAM_Wrapper_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_BRAM_Wrapper_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_BRAM_Wrapper_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_BRAM_Wrapper_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_Top_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_Top_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_Top_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_Top_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_axi_bram_ctrl_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_axi_bram_ctrl_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_blk_mem_gen_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_blk_mem_gen_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_blk_mem_gen_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_AXI_ArrayProc_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_AXI_ArrayProc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_AXI_ArrayProc_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_AXI_ArrayProc_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_BRAM_Wrapper_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_BRAM_Wrapper_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_BRAM_Wrapper_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_BRAM_Wrapper_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_Top_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_Top_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_Top_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_Top_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_axi_bram_ctrl_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_axi_bram_ctrl_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_blk_mem_gen_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_blk_mem_gen_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_blk_mem_gen_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'rsta_busy' of module 'System_Top_blk_mem_gen_0_0' is unconnected for instance 'blk_mem_gen_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:286]
 WARNING: [Synth 8-7071] port 'rstb_busy' of module 'System_Top_blk_mem_gen_0_0' is unconnected for instance 'blk_mem_gen_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:286]
 WARNING: [Synth 8-7023] instance 'blk_mem_gen_0' of module 'System_Top_blk_mem_gen_0_0' has 16 connections declared, but only 14 given [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:286]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_proc_sys_reset_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_proc_sys_reset_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_proc_sys_reset_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_proc_sys_reset_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_proc_sys_reset_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_proc_sys_reset_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'System_Top_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:301]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'System_Top_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:301]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'System_Top_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:301]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'System_Top_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:301]
 WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'System_Top_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:301]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_processing_system7_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_processing_system7_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_processing_system7_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_processing_system7_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'System_Top_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:310]
 WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'System_Top_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:310]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'System_Top_processing_system7_0_0' has 65 connections declared, but only 63 given [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:310]
-INFO: [Synth 8-6157] synthesizing module 'System_Top_smartconnect_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_smartconnect_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'System_Top_smartconnect_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-410817-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'System_Top_smartconnect_0_0' [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'System_Top_smartconnect_0_0' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/.Xil/Vivado-196844-gary-IdeaPad-Slim-5-Light-14ABR8/realtime/System_Top_smartconnect_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'M00_AXI_awqos' of module 'System_Top_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:374]
 WARNING: [Synth 8-7071] port 'M00_AXI_arqos' of module 'System_Top_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:374]
 WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'System_Top_smartconnect_0_0' has 92 connections declared, but only 90 given [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:374]
 INFO: [Synth 8-6155] done synthesizing module 'System_Top' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/synth/System_Top.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'System_Top_wrapper' (0#1) [/home/gary/Individual_Project_System/Individual_Project_System.gen/sources_1/bd/System_Top/hdl/System_Top_wrapper.v:13]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2363.621 ; gain = 575.781 ; free physical = 1024 ; free virtual = 6836
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2363.355 ; gain = 575.125 ; free physical = 2308 ; free virtual = 7326
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2363.621 ; gain = 575.781 ; free physical = 1030 ; free virtual = 6852
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2363.355 ; gain = 575.125 ; free physical = 2308 ; free virtual = 7326
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2363.621 ; gain = 575.781 ; free physical = 1037 ; free virtual = 6859
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2363.355 ; gain = 575.125 ; free physical = 2308 ; free virtual = 7326
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2363.621 ; gain = 0.000 ; free physical = 1067 ; free virtual = 6880
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2363.355 ; gain = 0.000 ; free physical = 2308 ; free virtual = 7326
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -112,31 +112,32 @@ Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System
 Finished Parsing XDC File [/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2411.273 ; gain = 0.000 ; free physical = 1064 ; free virtual = 6874
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2411.008 ; gain = 0.000 ; free physical = 2307 ; free virtual = 7325
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2411.309 ; gain = 0.000 ; free physical = 1064 ; free virtual = 6874
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2411.043 ; gain = 0.000 ; free physical = 2307 ; free virtual = 7325
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'System_Top_i/blk_mem_gen_0' at clock pin 'clka' is different from the actual clock period '18.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2411.309 ; gain = 623.469 ; free physical = 1080 ; free virtual = 6890
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2411.043 ; gain = 622.812 ; free physical = 2331 ; free virtual = 7349
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2419.277 ; gain = 631.438 ; free physical = 1080 ; free virtual = 6890
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2419.012 ; gain = 630.781 ; free physical = 2331 ; free virtual = 7349
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2419.277 ; gain = 631.438 ; free physical = 1113 ; free virtual = 6923
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2419.012 ; gain = 630.781 ; free physical = 2343 ; free virtual = 7361
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2419.277 ; gain = 631.438 ; free physical = 1108 ; free virtual = 6919
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2419.012 ; gain = 630.781 ; free physical = 2342 ; free virtual = 7362
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -158,25 +159,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2419.277 ; gain = 631.438 ; free physical = 1113 ; free virtual = 6928
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2419.012 ; gain = 630.781 ; free physical = 2363 ; free virtual = 7387
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2530.277 ; gain = 742.438 ; free physical = 1041 ; free virtual = 6856
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2530.012 ; gain = 741.781 ; free physical = 2281 ; free virtual = 7305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2530.277 ; gain = 742.438 ; free physical = 1041 ; free virtual = 6856
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2530.012 ; gain = 741.781 ; free physical = 2281 ; free virtual = 7305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2540.293 ; gain = 752.453 ; free physical = 1033 ; free virtual = 6849
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2540.027 ; gain = 751.797 ; free physical = 2273 ; free virtual = 7297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -194,37 +195,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -258,26 +259,26 @@ Report Cell Usage:
 |8     |System_Top_smartconnect_0       |     1|
 +------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.105 ; gain = 938.266 ; free physical = 858 ; free virtual = 6674
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.840 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2726.105 ; gain = 890.578 ; free physical = 860 ; free virtual = 6675
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.113 ; gain = 938.266 ; free physical = 860 ; free virtual = 6675
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2726.840 ; gain = 890.922 ; free physical = 2129 ; free virtual = 7153
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2726.848 ; gain = 938.609 ; free physical = 2129 ; free virtual = 7153
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2726.113 ; gain = 0.000 ; free physical = 860 ; free virtual = 6675
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2726.848 ; gain = 0.000 ; free physical = 2129 ; free virtual = 7153
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2726.113 ; gain = 0.000 ; free physical = 1027 ; free virtual = 6843
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2726.848 ; gain = 0.000 ; free physical = 2243 ; free virtual = 7267
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete | Checksum: b6264a3a
 INFO: [Common 17-83] Releasing license: Synthesis
-41 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+41 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2726.141 ; gain = 1141.145 ; free physical = 1027 ; free virtual = 6843
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1764.051; main = 1764.051; forked = 251.705
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3430.875; main = 2726.109; forked = 1019.598
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2726.875 ; gain = 1102.473 ; free physical = 2245 ; free virtual = 7269
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1764.251; main = 1764.251; forked = 255.192
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3438.617; main = 2726.844; forked = 1019.602
 INFO: [Common 17-1381] The checkpoint '/home/gary/Individual_Project_System/Individual_Project_System.runs/synth_1/System_Top_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file System_Top_wrapper_utilization_synth.rpt -pb System_Top_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 12:06:37 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 11:53:46 2026...
