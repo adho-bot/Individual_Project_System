@@ -799,7 +799,7 @@
                         phandle = <0x4e>;
                         compatible = "xlnx,fclk";
                         assigned-clocks = <&clkc 0xf>;
-                        assigned-clock-rates = <0x2faf080>;
+                        assigned-clock-rates = <0x3473bc0>;
                         #clock-cells = <0x0>;
                         clock-output-names = "fabric_clk";
                         clocks = <&clkc 0xf>;

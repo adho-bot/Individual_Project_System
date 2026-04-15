@@ -24,6 +24,20 @@
 // For a 16x16 array, PE addresses 0-255 are valid
 // We REUSE addresses 0-255 for different stages since the
 // data lives in PE registers between operations
+
+
+//NOTE: if ld not working, go to code /home/gary/Individual_Project_System/<application name>/src/UserConfig.cmake
+//Add Instructions.c into 
+//set(USER_COMPILE_SOURCES
+//    <main c file>.c
+//    platform.c
+//    Instructions.c    # add this
+//)
+
+//SystemTop_Sobel.c
+//SystemTop_MNIST.c
+
+
 #define IMG_BASE         0       // 0-255:   input image (16x16)
 #define POOL_CH0_BASE    256     // 256-304: pooled channel 0 (7x7=49)
 #define POOL_CH1_BASE    320     // 320-368: pooled channel 1 (7x7=49)
