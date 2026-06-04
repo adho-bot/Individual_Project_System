@@ -79,4 +79,4 @@ Only the FC layer is implemented on the host ARM core; the remaining layers run 
 
 ## Known Issues / Future Improvements
 
-None known so far.[MNIST_Eight.pdf](https://github.com/user-attachments/files/28595014/MNIST_Eight.pdf)
+None known so far.
