@@ -6,12 +6,12 @@ This repository contains the supporting system components for the array processo
 
 ## Diagram
 
-[System_Layout.pdf](https://github.com/user-attachments/files/28595059/System_Layout.pdf)
+<img width="1028" height="783" alt="image" src="https://github.com/user-attachments/assets/d548bd22-a5f2-4c03-b6f6-3403a059c892" />
 
 System Layout
 
 
-[MNIST_Eight.pdf](https://github.com/user-attachments/files/28595022/MNIST_Eight.pdf)
+<img width="1572" height="720" alt="image" src="https://github.com/user-attachments/assets/46e30831-09b7-47d7-9d34-3e1ddac0b421" />
 
 Inference results for digit 8.
 
