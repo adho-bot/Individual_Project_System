@@ -1,74 +1,82 @@
-# Individual Project System
+# System Layout for the Bit-serial Array Processor
 
-Hardware/software co-design project targeting **PYNQ-Z2 (Zynq-7000, xc7z020clg400-1)** using **Vivado 2025.2** and **Vitis**.
+## Introduction
 
-## Overview
+This repository contains the supporting system components for the array processor from the `Individual_Project` repository. The ARM core issues instructions to the array processor through an AXI-Lite interface. Both the ARM core and the array can access the BRAM independently, each through their own BRAM interface channel.
 
-This repository contains:
-- A Vivado block design (`System_Top`) with Zynq PS + BRAM + custom accelerator IP
-- Custom accelerator logic for array-based instruction execution
-- A Vitis standalone C application that drives the accelerator and runs a small CNN-style inference flow (conv + pool + FC) on a 16×16 image
+## Diagram
 
-## Main Components
+[System_Layout.pdf](https://github.com/user-attachments/files/28595059/System_Layout.pdf)
 
-- **Vivado project**: `Individual_Project_System.xpr`
-- **Block design**: `Individual_Project_System.srcs/sources_1/bd/System_Top/System_Top.bd`
-- **Exported hardware handoff**: `System_Top_wrapper.xsa`
-- **Vitis application**: `System_Top/src/`
-  - `helloworld.c` – accelerator control + inference pipeline
-  - `Instructions.h/.c` – custom instruction encoding helpers
-  - `imagedata.h` – input image data
-- **Platform/BSP artifacts**: `platform/`
+System Layout
 
-## Accelerator Interface (high level)
 
-The software issues instructions through AXI-Lite registers:
-- `INSTR_OFFSET = 0x00`
-- `VALID_OFFSET = 0x04`
-- `READY_OFFSET = 0x08`
+[MNIST_Eight.pdf](https://github.com/user-attachments/files/28595022/MNIST_Eight.pdf)
 
-Instruction helpers (load/store, ALU, NEWS neighbor ops, shift/MSB ops) are defined in `System_Top/src/Instructions.h`.
+Inference results for digit 8.
 
-## Repository Structure
+## IPs Used
 
-```text
-.
-├── Individual_Project_System.xpr
-├── Individual_Project_System.srcs/
-├── Individual_Project_System.gen/
-├── Individual_Project_System.runs/
-├── System_Top/
-│   └── src/
-├── platform/
-└── System_Top_wrapper.xsa
-```
+* Vivado BRAM controller
+* AXI SmartConnect (interconnect)
+* The ARM core on the PYNQ-Z2
+* AXI bus interface
 
-## How to Open and Build
+## User Installation Instructions
 
-### Vivado (hardware)
-1. Open Vivado 2025.2.
-2. Open project: `Individual_Project_System.xpr`.
-3. Open block design `System_Top` and regenerate output products if prompted.
-4. Run synthesis/implementation and generate bitstream as needed.
-5. Export hardware (XSA) for Vitis if you modify hardware.
+These instructions assume you are starting from scratch with no prior tools installed.
 
-### Vitis (software)
-1. Create/open a workspace and import the existing platform/application from this repository.
-2. Use the exported XSA (`System_Top_wrapper.xsa`) and standalone Cortex-A9 domain.
-3. Build application `System_Top`.
-4. Program the board and run the ELF.
+1. **Download Vivado.** Go to the [AMD/Xilinx downloads page](https://www.xilinx.com/support/download.html) and download the Vivado installer (the Vivado ML Edition / Unified Installer).
+2. **Run the installer.** Launch the installer and sign in with (or create) an AMD account when prompted.
+3. **Select Vitis.** On the edition selection screen, choose the option that installs **Vitis** alongside Vivado, so you have the software development tools needed to drive the accelerator.
+4. **Select the Zynq device family.** When choosing devices/families to install, make sure the **Zynq** checkmark is ticked, as the target board is Zynq-based.
+5. **Complete installation.** Accept the licence agreements, choose an install location, and let the installer finish.
+6. **Install the PYNQ-Z2 board files.** Download the PYNQ-Z2 board files and copy them into your Vivado board files directory (typically `<Vivado_install>/data/boards/board_files/`) so the PYNQ-Z2 board appears as a target in Vivado.
 
-## Runtime Behavior
+## How to Run the Code
 
-The application in `helloworld.c`:
-1. Initializes BRAM and loads image data
-2. Loads constants and issues custom instructions to the accelerator
-3. Runs two convolution-like passes
-4. Performs max-pooling
-5. Computes FC scores for 10 classes
-6. Prints predicted digit over UART
+These steps assume no prior knowledge of the project.
 
-## Notes
+### Launch the Demo GUI
 
-- This repository includes generated artifacts (`.gen`, `.runs`, BSP/platform outputs).
-- Some generated files contain absolute paths from the original author environment; regenerating build outputs in your local setup may be required.
+1. **Open the `img` folder.** From the repository root, run:
+   ```bash
+   cd img
+   code .
+   ```
+2. **Activate the virtual environment:**
+   ```bash
+   source venv/bin/activate
+   ```
+3. **Launch the demo GUI:**
+   ```bash
+   python3 -u PROJECT_DEMO.py
+   ```
+4. **Choose your image.** Click the **MNIST** button in the GUI to choose your image.
+
+### Run the Code on the ARM Core
+
+1. **Open Vitis** and set the workspace to:
+   ```
+   /home/gary/Individual_Project_System
+   ```
+2. **Open the serial monitor.** Go to the **Vitis** menu at the top and select **Serial Monitor**.
+3. **Configure the serial connection.** Select your serial port (the one your FPGA is connected to) and set the baud rate to **115200**.
+4. **Open the source file.** Go to the **system_top** application, click **Sources**, then open `SystemTop_MNIST.c`.
+5. **Build and run.** Build the project first, then run the code.
+6. **View the result.** The result of the image will be shown in the serial monitor output.
+
+## More Technical Details
+
+The MNIST program in `SystemTop_MNIST.c` runs a simple CNN to demonstrate the entire instruction set of the array processor. It consists of two channels and the following layers, in order:
+
+1. Convolution layer
+2. ReLU
+3. Max pooling
+4. Fully connected (FC) layer
+
+Only the FC layer is implemented on the host ARM core; the remaining layers run on the array processor.
+
+## Known Issues / Future Improvements
+
+None known so far.[MNIST_Eight.pdf](https://github.com/user-attachments/files/28595014/MNIST_Eight.pdf)
