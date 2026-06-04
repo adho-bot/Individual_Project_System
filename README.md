@@ -4,14 +4,13 @@
 
 This repository contains the supporting system components for the array processor from the `Individual_Project` repository. The ARM core issues instructions to the array processor through an AXI-Lite interface. Both the ARM core and the array can access the BRAM independently, each through their own BRAM interface channel.
 
-## Diagram
-
-<img width="1028" height="783" alt="image" src="https://github.com/user-attachments/assets/d548bd22-a5f2-4c03-b6f6-3403a059c892" />
+<img width="502" height="353" alt="image" src="https://github.com/user-attachments/assets/d548bd22-a5f2-4c03-b6f6-3403a059c892" />
 
 System Layout
 
+## Demo
 
-<img width="1572" height="720" alt="image" src="https://github.com/user-attachments/assets/46e30831-09b7-47d7-9d34-3e1ddac0b421" />
+<img width="720" height="375" alt="image" src="https://github.com/user-attachments/assets/46e30831-09b7-47d7-9d34-3e1ddac0b421" />
 
 Inference results for digit 8.
 
